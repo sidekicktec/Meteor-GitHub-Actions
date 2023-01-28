@@ -1,0 +1,15 @@
+{ 
+  "name": "github-actions",
+  "version": "0.0.1",
+  "description": "",
+  "author": "luizinho",
+  "date": "2023-01-28T19:38:45Z",
+  "keywords": ["meteor", "blaze", "code", "0.0.1"],
+  "main": "./bundle/main.js",
+  "node": "v14.21.2",
+  "scripts": {
+    "start": "node ./bundle/main.js",
+    "start:local": "nvm use v14.21.2 && ROOT_URL=http://localhost:3000 PORT=3000 MONGO_URL=mongodb+srv://luizinho:searom@01jan23.uhfqahg.mongodb.net/test node ./bundle/main.js"
+    }
+}
+
